@@ -11,7 +11,6 @@
     </PosterBG>
   </div>
 </template>
-
 <script>
 import { mapActions, mapGetters } from 'vuex'
 import MovieList from './components/MovieList'
