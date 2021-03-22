@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import movies from './modules/movies'
+import loader from './modules/loader'
+import modalWindow from './modules/modalWindow'
 
 Vue.use(Vuex)
 
@@ -10,6 +13,5 @@ export default new Vuex.Store({
   },
   actions: {
   },
-  modules: {
-  }
+  modules: { movies, loader, modalWindow }
 })
